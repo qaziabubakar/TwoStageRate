@@ -1,6 +1,6 @@
 # TwoStageRate
 TwoStageRate is a library to help you promote your android app by prompting users to rate the app after using it for a few days. Also its two stage process ensures higher reviews to go to playstore while getting useful feedback on lower ratings.
-
+[![](https://jitpack.io/v/qaziabubakar/TwoStageRate.svg)](https://jitpack.io/#qaziabubakar/TwoStageRate)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Two%20Stage%20Rate-brightgreen.svg?style=social)]()
 
 # Screenshots and stages
@@ -20,10 +20,17 @@ TwoStageRate is a library to help you promote your android app by prompting user
          If users gives 4 or more rating -> User is requested to rate your app on playstore.
 
 # Install
+ In your project level gradle file add:
+ 
+repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
 
 For gradle, go to your app.gradle file and inside ` dependencies{}` add :
 
-         compile 'com.morsebyte.shailesh.twostagerating:TwoStageRate:2.0'
+         compile 'com.github.qaziabubakar:TwoStageRate:-SNAPSHOT'
 
 Thats it, you are good to go.
 
