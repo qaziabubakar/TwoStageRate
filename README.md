@@ -21,13 +21,13 @@ TwoStageRate is a library to help you promote your android app by prompting user
 
 # Install
  In your project level gradle file add:
-
-repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
-}
-
+```
+         repositories {
+                  jcenter()
+                   maven { url "https://jitpack.io" }
+                }
+         }
+```
 For gradle, go to your app.gradle file and inside ` dependencies{}` add :
 
          compile 'com.github.qaziabubakar:TwoStageRate:-SNAPSHOT'
