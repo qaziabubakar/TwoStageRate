@@ -344,7 +344,7 @@ public class TwoStageRate {
                         feedbackReceivedListener.onFeedbackReceived(etFeedback.getText().toString());
                     }
                 } else {
-                    Toast.makeText(context, "Bro.. Write Something", Toast.LENGTH_LONG).show();
+                    Toast.makeText(context, "Kindly Enter Some Feedback", Toast.LENGTH_LONG).show();
                 }
             }
         });
